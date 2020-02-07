@@ -28,8 +28,8 @@
                     if (range >= 100) {
                         _color = "green";
                     } else if (range >= 50) {
-                        _color = "yello";
-                    } else if (Range > 0) {
+                        _color = "yellow";
+                    } else if (range > 0) {
                         _color = "red";
                     }
                     return L.marker(latlng,
